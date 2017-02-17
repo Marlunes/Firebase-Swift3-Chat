@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+
+use_frameworks!
+target 'ChatMe' do
+
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKLoginKit'
+    pod 'SDWebImage', '~>3.8'
+    pod 'Firebase/Database'
+
+end
